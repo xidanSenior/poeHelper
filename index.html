@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoE Overlay</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main id="panel" class="panel">
+      <header class="drag" data-tauri-drag-region>
+        <span id="act">—</span>
+        <span id="level"></span>
+      </header>
+      <h1 id="zone">Ожидание лога…</h1>
+
+      <section class="guide" id="guide">
+        <div class="step-head">
+          <span id="step-zone"></span>
+          <span class="counter" id="step-counter"></span>
+        </div>
+        <ul id="step-items"></ul>
+        <p class="next" id="step-next"></p>
+      </section>
+
+      <section class="lab" id="lab" hidden>
+        <div class="step-head"><span id="lab-title"></span></div>
+        <p class="lab-warning" id="lab-warning" hidden></p>
+        <div id="lab-map"></div>
+        <ul id="lab-lines"></ul>
+      </section>
+
+      <section class="settings" id="settings">
+        <label for="log-path">Путь к Client.txt</label>
+        <div class="row">
+          <input id="log-path" type="text" spellcheck="false" />
+          <button id="save-path" type="button">OK</button>
+        </div>
+
+        <label for="route-export">
+          Маршрут: exile-leveling → меню → «3rd-Party Export» → Ctrl+V сюда
+        </label>
+        <textarea id="route-export" rows="3" spellcheck="false" placeholder='[{"name":"Act 1","steps":[…]}, "pob-code:…"]'></textarea>
+        <div class="row">
+          <button id="load-route" type="button">Загрузить маршрут</button>
+          <span class="route-info" id="route-info"></span>
+        </div>
+
+        <label for="lab-export">Лабиринт: открой JSON раскладки с poelab.com, Ctrl+A, Ctrl+C → Ctrl+V сюда</label>
+        <textarea id="lab-export" rows="2" spellcheck="false" placeholder='{"difficulty":"Normal","date":"…","rooms":[…]}'></textarea>
+        <div class="row">
+          <button id="load-lab" type="button">Загрузить лабу</button>
+          <input id="lab-file" type="file" accept=".json,application/json" multiple />
+        </div>
+        <div class="route-info" id="lab-info"></div>
+
+        <div class="row">
+          <button id="step-prev" type="button">◀ Шаг</button>
+          <button id="step-next-btn" type="button">Шаг ▶</button>
+          <button id="step-reset" type="button" class="secondary">Сначала</button>
+        </div>
+      </section>
+
+      <footer id="status">Alt+Shift+O — настройка · Alt+Shift+←/→ — шаг · Alt+Shift+H — скрыть</footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

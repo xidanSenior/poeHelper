@@ -1,0 +1,251 @@
+:root {
+  --bg: rgba(14, 12, 10, 0.8);
+  --border: rgba(175, 140, 80, 0.55);
+  --gold: #d8b46a;
+  --text: #e8e2d6;
+  --muted: #9b9284;
+  --error: #e0705a;
+  --kill: #e46b5d;
+  --area: #8fc1e8;
+  --quest: #8fd18a;
+  --trial: #e8915a;
+  --gem: #6fd6c9;
+  --reward: #d7c46a;
+  --waypoint: #b9a5e8;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+  user-select: none;
+}
+
+.panel {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 14px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.drag {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+h1 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* ───── Гайд ───── */
+
+.guide {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+  border-top: 1px solid var(--border);
+  padding-top: 6px;
+  font-size: 13px;
+}
+
+.step-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--gold);
+  font-size: 12px;
+}
+
+.step-head .away {
+  color: var(--trial);
+}
+
+.counter {
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.guide ul {
+  margin: 4px 0;
+  padding-left: 18px;
+  line-height: 1.35;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+
+.guide li + li {
+  margin-top: 2px;
+}
+
+.sub {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.seg-kill { color: var(--kill); font-weight: 600; }
+.seg-area { color: var(--area); }
+.seg-quest { color: var(--quest); }
+.seg-trial { color: var(--trial); font-weight: 600; }
+.seg-gem { color: var(--gem); font-weight: 600; }
+.seg-reward { color: var(--reward); }
+.seg-waypoint { color: var(--waypoint); }
+.seg-dir { color: var(--gold); font-weight: 700; }
+
+.next {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+footer {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+footer.error {
+  color: var(--error);
+}
+
+/* ───── Лабиринт ───── */
+
+[hidden] {
+  display: none !important;
+}
+
+.lab {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+  border-top: 1px solid var(--border);
+  padding-top: 6px;
+  font-size: 13px;
+}
+
+.lab-warning {
+  margin: 2px 0;
+  font-size: 11px;
+  color: var(--trial);
+}
+
+.lab-map {
+  width: 100%;
+  max-height: 110px;
+  margin: 4px 0;
+}
+
+.lab-map .edge { stroke: rgba(155, 146, 132, 0.45); stroke-width: 3; }
+.lab-map .edge.route { stroke: var(--gold); stroke-width: 5; }
+.lab-map .edge.secret { stroke-dasharray: 6 6; }
+.lab-map .room { fill: #3a342c; stroke: var(--muted); stroke-width: 2; }
+.lab-map .room.on-route { fill: #6b5a35; stroke: var(--gold); }
+.lab-map .room.trial { fill: #6b2e24; stroke: var(--kill); }
+.lab-map .room.shrine { stroke: var(--gem); stroke-width: 3; }
+.lab-map .room.current { fill: var(--gold); stroke: #fff; stroke-width: 3; }
+
+.lab ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  line-height: 1.4;
+}
+
+.lab li.go { color: var(--gold); font-weight: 600; font-size: 14px; }
+.lab li.contents { color: var(--muted); font-size: 11px; }
+.lab li.away { color: var(--trial); }
+
+/* ───── Режим настройки (Alt+Shift+O): вместо гайда показываем настройки ───── */
+
+.settings {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+body.interactive .settings {
+  display: flex;
+}
+
+body.interactive .guide,
+body.interactive .lab {
+  display: none !important;
+}
+
+input[type="file"] {
+  font-family: inherit;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+body.interactive .panel {
+  border-color: var(--gold);
+}
+
+body.interactive .drag {
+  cursor: move;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.route-info {
+  color: var(--muted);
+}
+
+input,
+textarea {
+  flex: 1;
+  min-width: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text);
+  padding: 4px 6px;
+  font-size: 12px;
+  font-family: Consolas, monospace;
+  user-select: text;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background: var(--gold);
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--border);
+}

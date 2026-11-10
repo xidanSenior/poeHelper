@@ -1,0 +1,4465 @@
+{
+ "source": "https://github.com/HeartofPhos/exile-leveling/tree/b7b2dd0ed62ae25cf55c74085fa64a1f4d7cf4ba",
+ "areas": {
+  "1_1_1": {
+   "name": "The Twilight Strand",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_Labyrinth_boss_3": {
+   "name": "Aspirant's Trial",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_Labyrinth_boss_3": {
+   "name": "Aspirant's Trial",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "3_Labyrinth_boss_3": {
+   "name": "Aspirant's Trial",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "EndGame_Labyrinth_boss_3": {
+   "name": "Aspirant's Trial",
+   "act": 11,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_1_town": {
+   "name": "Lioneye's Watch",
+   "act": 1,
+   "town": true,
+   "townId": null
+  },
+  "1_1_2": {
+   "name": "The Coast",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_3": {
+   "name": "The Mud Flats",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_2a": {
+   "name": "The Tidal Island",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_4_1": {
+   "name": "The Submerged Passage",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_3a": {
+   "name": "The Fetid Pool",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_5": {
+   "name": "The Ledge",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_4_0": {
+   "name": "The Flooded Depths",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_6": {
+   "name": "The Climb",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_7_1": {
+   "name": "The Lower Prison",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_7_2": {
+   "name": "The Upper Prison",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_8": {
+   "name": "Prisoner's Gate",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_9": {
+   "name": "The Ship Graveyard",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_2_9": {
+   "name": "The Western Forest",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_1_9a": {
+   "name": "The Ship Graveyard Cave",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_1_11_1": {
+   "name": "The Cavern of Wrath",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_2_7": {
+   "name": "The Riverways",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_10": {
+   "name": "The Weaver's Chambers",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_1_11_2": {
+   "name": "The Cavern of Anger",
+   "act": 1,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_2_town": {
+   "name": "The Forest Encampment",
+   "act": 2,
+   "town": true,
+   "townId": null
+  },
+  "1_2_12": {
+   "name": "The Wetlands",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_1": {
+   "name": "The Southern Forest",
+   "act": 2,
+   "town": false,
+   "townId": "1_1_town"
+  },
+  "1_2_2": {
+   "name": "The Old Fields",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_11": {
+   "name": "The Vaal Ruins",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_2a": {
+   "name": "The Den",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_3": {
+   "name": "The Crossroads",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_8": {
+   "name": "The Northern Forest",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_4": {
+   "name": "The Broken Bridge",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_15": {
+   "name": "The Fellshrine Ruins",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_6_1": {
+   "name": "The Chamber of Sins Level 1",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_13": {
+   "name": "The Dread Thicket",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_14_2": {
+   "name": "The Caverns",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_5_1": {
+   "name": "The Crypt Level 1",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_6_2": {
+   "name": "The Chamber of Sins Level 2",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_14_3": {
+   "name": "The Ancient Pyramid",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_2_5_2": {
+   "name": "The Crypt Level 2",
+   "act": 2,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_3_1": {
+   "name": "The City of Sarn",
+   "act": 3,
+   "town": false,
+   "townId": "1_2_town"
+  },
+  "1_3_town": {
+   "name": "The Sarn Encampment",
+   "act": 3,
+   "town": true,
+   "townId": null
+  },
+  "1_3_2": {
+   "name": "The Slums",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "ffa1_1": {
+   "name": "Sarn Arena",
+   "act": 3,
+   "town": false,
+   "townId": null
+  },
+  "Labyrinth_Airlock": {
+   "name": "Aspirants' Plaza",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_3_1": {
+   "name": "The Crematorium",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_10_1": {
+   "name": "The Sewers",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_8_town": {
+   "name": "The Sarn Encampment",
+   "act": 8,
+   "town": true,
+   "townId": null
+  },
+  "1_3_5": {
+   "name": "The Marketplace",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_13": {
+   "name": "The Ebony Barracks",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_8_1": {
+   "name": "The Sarn Ramparts",
+   "act": 8,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_2_1": {
+   "name": "The Toxic Conduits",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "ffa3_1": {
+   "name": "Sarn Arena",
+   "act": 3,
+   "town": false,
+   "townId": null
+  },
+  "1_3_6": {
+   "name": "The Catacombs",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_7": {
+   "name": "The Battlefront",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_14_1": {
+   "name": "The Lunaris Temple Level 1",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_15": {
+   "name": "The Imperial Gardens",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_7_12_2": {
+   "name": "The Temple of Decay Level 2",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_2_2": {
+   "name": "Doedre's Cesspool",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "1_3_8_1": {
+   "name": "The Solaris Temple Level 1",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_9": {
+   "name": "The Docks",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_14_2": {
+   "name": "The Lunaris Temple Level 2",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_17_1": {
+   "name": "The Library",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_18_1": {
+   "name": "The Sceptre of God",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_7_12_1": {
+   "name": "The Temple of Decay Level 1",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_3": {
+   "name": "The Grand Promenade",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_8": {
+   "name": "The Quay",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "1_3_8_2": {
+   "name": "The Solaris Temple Level 2",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_17_2": {
+   "name": "The Archives",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "1_3_18_2": {
+   "name": "The Upper Sceptre of God",
+   "act": 3,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_7_11": {
+   "name": "The Vaal City",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_5": {
+   "name": "The Bath House",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_9": {
+   "name": "The Grain Gate",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "1_4_1": {
+   "name": "The Aqueduct",
+   "act": 4,
+   "town": false,
+   "townId": "1_3_town"
+  },
+  "2_7_10": {
+   "name": "The Causeway",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_6": {
+   "name": "The Lunaris Concourse",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_4": {
+   "name": "The High Gardens",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_14": {
+   "name": "The Hidden Underbelly",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_10": {
+   "name": "The Imperial Fields",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "1_4_town": {
+   "name": "Highgate",
+   "act": 4,
+   "town": true,
+   "townId": null
+  },
+  "2_7_8": {
+   "name": "The Northern Forest",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_7_1_": {
+   "name": "The Lunaris Temple Level 1",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_13": {
+   "name": "The Harbour Bridge",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_11": {
+   "name": "The Solaris Concourse",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_12_1": {
+   "name": "The Solaris Temple Level 1",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "1_4_2": {
+   "name": "The Dried Lake",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_4_3_1": {
+   "name": "The Mines Level 1",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_4_7": {
+   "name": "The Ascent",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "2_7_7": {
+   "name": "The Ashen Fields",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_7_9": {
+   "name": "The Dread Thicket",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_8_7_2": {
+   "name": "The Lunaris Temple Level 2",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_9_1": {
+   "name": "The Blood Aqueduct",
+   "act": 9,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "2_8_12_2": {
+   "name": "The Solaris Temple Level 2",
+   "act": 8,
+   "town": false,
+   "townId": "2_8_town"
+  },
+  "1_4_3_2": {
+   "name": "The Mines Level 2",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_5_1": {
+   "name": "The Slave Pens",
+   "act": 5,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "2_7_6": {
+   "name": "The Den",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_9_town": {
+   "name": "Highgate",
+   "act": 9,
+   "town": true,
+   "townId": null
+  },
+  "1_4_3_3": {
+   "name": "The Crystal Veins",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_5_town": {
+   "name": "Overseer's Tower",
+   "act": 5,
+   "town": true,
+   "townId": null
+  },
+  "2_7_5_2": {
+   "name": "The Chamber of Sins Level 2",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_9_2": {
+   "name": "The Descent",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_4_4_1": {
+   "name": "Kaom's Dream",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_4_5_1": {
+   "name": "Daresso's Dream",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_4_6_1": {
+   "name": "The Belly of the Beast Level 1",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_5_2": {
+   "name": "The Control Blocks",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_7_5_1": {
+   "name": "The Chamber of Sins Level 1",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_9_3": {
+   "name": "The Vastiri Desert",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_4_4_3": {
+   "name": "Kaom's Stronghold",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_4_5_2": {
+   "name": "The Grand Arena",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_4_6_2": {
+   "name": "The Belly of the Beast Level 2",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_5_3": {
+   "name": "Oriath Square",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_7_2": {
+   "name": "The Crossroads",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_7_5_map": {
+   "name": "Maligaro's Sanctum",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_9_4": {
+   "name": "The Oasis",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "2_9_5": {
+   "name": "The Foothills",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_4_6_3": {
+   "name": "The Harvest",
+   "act": 4,
+   "town": false,
+   "townId": "1_4_town"
+  },
+  "1_5_4": {
+   "name": "The Templar Courts",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_7_1": {
+   "name": "The Broken Bridge",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_7_3": {
+   "name": "The Fellshrine Ruins",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_9_6": {
+   "name": "The Boiling Lake",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "2_9_7": {
+   "name": "The Tunnel",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_5_5": {
+   "name": "The Chamber of Innocence",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_7_town": {
+   "name": "The Bridge Encampment",
+   "act": 7,
+   "town": true,
+   "townId": null
+  },
+  "SanctumFoyer_Fellshrine": {
+   "name": "The Forbidden Sanctum",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_7_4": {
+   "name": "The Crypt",
+   "act": 7,
+   "town": false,
+   "townId": "2_7_town"
+  },
+  "2_9_8": {
+   "name": "The Quarry",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_5_4b": {
+   "name": "The Torched Courts",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_6_15": {
+   "name": "The Brine King's Reef",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_9_9": {
+   "name": "The Refinery",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "2_9_10_1": {
+   "name": "The Belly of the Beast",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_5_3b": {
+   "name": "The Ruined Square",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_6_14": {
+   "name": "The Beacon",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_9_10_2": {
+   "name": "The Rotting Core",
+   "act": 9,
+   "town": false,
+   "townId": "2_9_town"
+  },
+  "1_5_6": {
+   "name": "The Ossuary",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "1_5_8": {
+   "name": "The Cathedral Rooftop",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "1_5_7": {
+   "name": "The Reliquary",
+   "act": 5,
+   "town": false,
+   "townId": "1_5_town"
+  },
+  "2_6_13": {
+   "name": "The Cavern of Anger",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_10_town": {
+   "name": "Oriath Docks",
+   "act": 10,
+   "town": true,
+   "townId": null
+  },
+  "2_6_town": {
+   "name": "Lioneye's Watch",
+   "act": 6,
+   "town": true,
+   "townId": null
+  },
+  "2_6_12": {
+   "name": "The Southern Forest",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_10_1": {
+   "name": "The Cathedral Rooftop",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_10_6": {
+   "name": "The Feeding Trough",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_11_endgame_town": {
+   "name": "Karui Shores",
+   "act": 11,
+   "town": true,
+   "townId": null
+  },
+  "2_6_2": {
+   "name": "The Coast",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_1": {
+   "name": "The Twilight Strand",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_10": {
+   "name": "The Riverways",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_10_2": {
+   "name": "The Ravaged Square",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_10_5": {
+   "name": "The Canals",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_6_4": {
+   "name": "The Mud Flats",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_3": {
+   "name": "The Tidal Island",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_9": {
+   "name": "The Western Forest",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_11": {
+   "name": "The Wetlands",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_10_3": {
+   "name": "The Torched Courts",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_10_9": {
+   "name": "The Ossuary",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_10_8": {
+   "name": "The Reliquary",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_10_7": {
+   "name": "The Control Blocks",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_6_5": {
+   "name": "The Karui Fortress",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_8": {
+   "name": "Prisoner's Gate",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_10_4": {
+   "name": "The Desecrated Chambers",
+   "act": 10,
+   "town": false,
+   "townId": "2_10_town"
+  },
+  "2_6_6": {
+   "name": "The Ridge",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_7_2": {
+   "name": "Shavronne's Tower",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  },
+  "2_6_7_1": {
+   "name": "The Lower Prison",
+   "act": 6,
+   "town": false,
+   "townId": "2_6_town"
+  }
+ },
+ "quests": {
+  "a1q1": "Enemy at the Gate",
+  "a1q5": "Mercy Mission",
+  "a1q4": "Breaking Some Eggs",
+  "a1q8": "A Dirty Job",
+  "a1q7": "The Dweller of the Deep",
+  "a1q2": "The Caged Brute",
+  "a1q6": "The Marooned Mariner",
+  "a1q3": "The Siren's Cadence",
+  "a1q9": "The Way Forward",
+  "a2q11": "The Way Forward",
+  "a2q5": "Through Sacred Ground",
+  "a2q6": "Intruders in Black",
+  "a2q10": "The Great White Beast",
+  "a2q4": "Sharp and Cruel",
+  "a2q9": "The Root of the Problem",
+  "a2q7": "Deal with the Bandits",
+  "a2q1": "The Bandit Lord Kraityn",
+  "a2q2": "The Bandit Lord Alira",
+  "a2q3": "The Bandit Lord Oak",
+  "a2q8": "Shadow of the Vaal",
+  "a2q8a3": "Shadow of the Vaal",
+  "a3q1": "Lost in Love",
+  "a3q2": "Lost in Love",
+  "a3q11": "Victario's Secrets",
+  "a3q3": "The Gemling Queen",
+  "a3q4": "The Ribbon Spool",
+  "a3q5": "Fiery Dust",
+  "a3q8": "Sever the Right Hand",
+  "a3q12": "A Fixture of Fate",
+  "a3q13": "A Swig of Hope",
+  "a3q9": "Piety's Pets",
+  "a3q10": "The Sceptre of God",
+  "d2c1": "",
+  "d2c2": "",
+  "a4q1": "The Eternal Nightmare",
+  "a4q2": "Breaking the Seal",
+  "a4q3": "The King of Fury",
+  "a4q4": "The King of Desire",
+  "a4q5": "Corpus Malachus",
+  "a4q6": "An Indomitable Spirit",
+  "bandit_respec": "",
+  "a5q1a": "Return to Oriath",
+  "a5q1b": "Return to Oriath",
+  "a5q2": "The Key to Freedom",
+  "a5q3": "In Service to Science",
+  "a5q4": "Death to Purity",
+  "a5q5": "The King's Feast",
+  "a5q6": "The Ravenous God",
+  "a5q7": "Kitava's Torments",
+  "a6q1": "The Brine King",
+  "a6q2": "Essence of Umbra",
+  "a6q3": "The Father of War",
+  "a6q4": "Fallen from Grace",
+  "a6q5": "Bestel's Epic",
+  "a6q6": "The Puppet Mistress",
+  "a6q7": "The Cloven One",
+  "a7q1": "The Master of a Million Faces",
+  "a7q2": "Essence of the Artist",
+  "a7q3": "Web of Secrets",
+  "a7q4": "The Mother of Spiders",
+  "a7q5": "The Silver Locket",
+  "a7q6": "Kishara's Star",
+  "a7q7": "Lighting the Way",
+  "a7q8": "In Memory of Greust",
+  "a7q9": "Queen of Despair",
+  "a8q1": "Essence of the Hag",
+  "a8q2": "Lunar Eclipse",
+  "a8q3": "Solar Eclipse",
+  "a8q4": "Reflection of Terror",
+  "a8q5": "The Wings of Vastiri",
+  "a8q6": "Love is Dead",
+  "a8q7": "The Gemling Legion",
+  "a9q1": "Recurring Nightmare",
+  "a9q2": "The Ruler of Highgate",
+  "a9q3": "The Storm Blade",
+  "a9q4": "Fastis Fortuna",
+  "a9q5": "Queen of the Sands",
+  "a10q1": "Safe Passage",
+  "a10q2": "Death and Rebirth",
+  "a10q3": "An End to Hunger",
+  "a10q4": "No Love for Old Ghosts",
+  "a10q5": "Map to Tsoatha",
+  "a10q6": "Vilenta's Vengeance",
+  "a10q3a11": "An End to Hunger",
+  "A11q0": "Toward the Future",
+  "a11q1": "A Call to Arms",
+  "maven_atlas": "The Maven",
+  "maven_boss": "The Maven's Game",
+  "uberelder": "The Elder",
+  "tangle": "The Eater of Worlds",
+  "cleansing_fire": "The Searing Exarch",
+  "kirac_atlas": "The Atlas of Worlds",
+  "ThreadsOfTheOriginator": "Threads of the Originator",
+  "DeepwaterFairgravesAllflameQuest": "The Spirit Flame"
+ },
+ "gems": {
+  "Metadata/Items/Gems/SkillGemFireball": {
+   "name": "Fireball",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFireball": {
+   "name": "Vaal Fireball",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceNova": {
+   "name": "Ice Nova",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIcefire": {
+   "name": "Icefire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalIceNova": {
+   "name": "Vaal Ice Nova",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLeapSlam": {
+   "name": "Leap Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRiptide": {
+   "name": "Riptide",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemChargedDash": {
+   "name": "Charged Dash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemChargedAttack": {
+   "name": "Blade Flurry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSweep": {
+   "name": "Holy Sweep",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDiscorectangleSlam": {
+   "name": "Discorectangle Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSweep": {
+   "name": "Vaal Sweep",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWandTeleport": {
+   "name": "Wand Teleport",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGroundSlam": {
+   "name": "Ground Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalGroundSlam": {
+   "name": "Vaal Ground Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCleave": {
+   "name": "Cleave",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShieldCharge": {
+   "name": "Shield Charge",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnduringCry": {
+   "name": "Enduring Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDoubleStrike": {
+   "name": "Double Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDoubleStrike": {
+   "name": "Vaal Double Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLacerate": {
+   "name": "Lacerate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemElementalHit": {
+   "name": "Elemental Hit",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemImmortalCall": {
+   "name": "Immortal Call",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalImmortalCall": {
+   "name": "Vaal Immortal Call",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDualStrike": {
+   "name": "Dual Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWhirlingBlades": {
+   "name": "Whirling Blades",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrenzy": {
+   "name": "Frenzy",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDetonateDead": {
+   "name": "Detonate Dead",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDetonateDead": {
+   "name": "Vaal Detonate Dead",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVolatileDead": {
+   "name": "Volatile Dead",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBoneLance": {
+   "name": "Unearth",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSplitArrow": {
+   "name": "Split Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemAddedFireDamage": {
+   "name": "Added Fire Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterAttack": {
+   "name": "Faster Attacks Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles": {
+   "name": "Greater Multiple Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLesserMultipleProjectiles": {
+   "name": "Multiple Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterProjectiles": {
+   "name": "Faster Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedColdDamage": {
+   "name": "Added Cold Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalAccuracy": {
+   "name": "Additional Accuracy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect": {
+   "name": "Increased Area of Effect Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedLightningDamage": {
+   "name": "Added Lightning Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemColdSnap": {
+   "name": "Cold Snap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalColdSnap": {
+   "name": "Vaal Cold Snap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRaiseZombie": {
+   "name": "Raise Zombie",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoisonArrow": {
+   "name": "Caustic Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDamageInfusion": {
+   "name": "Damage Infusion",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodRage": {
+   "name": "Blood Rage",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIgnite": {
+   "name": "Ignite",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRighteousFire": {
+   "name": "Righteous Fire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalRighteousFire": {
+   "name": "Vaal Righteous Fire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireWeapon": {
+   "name": "Fire Weapon",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDischarge": {
+   "name": "Discharge",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPortal": {
+   "name": "Portal",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalPortal": {
+   "name": "Vaal Breach",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemReducedMana": {
+   "name": "Inspiration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedCriticalStrikes": {
+   "name": "Increased Critical Strikes Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedCriticalDamage": {
+   "name": "Increased Critical Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemKnockback": {
+   "name": "Knockback Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifeLeech": {
+   "name": "Life Leech Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemManaLeech": {
+   "name": "Mana Leech Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedChaosDamage": {
+   "name": "Added Chaos Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemBackstab": {
+   "name": "Backstab",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlickerStrike": {
+   "name": "Flicker Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFlickerStrike": {
+   "name": "Vaal Flicker Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpark": {
+   "name": "Spark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSpark": {
+   "name": "Vaal Spark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCastLinkedCursesOnCurse": {
+   "name": "WIP Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemStun": {
+   "name": "Stun Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemIceSpear": {
+   "name": "Ice Spear",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemPierce": {
+   "name": "Pierce Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemTrap": {
+   "name": "Trap Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemRaiseSpectre": {
+   "name": "Raise Spectre",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemInfernalBlow": {
+   "name": "Infernal Blow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGlacialHammer": {
+   "name": "Glacial Hammer",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalGlacialHammer": {
+   "name": "Vaal Glacial Hammer",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostWall": {
+   "name": "Frost Wall",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWallOfForce": {
+   "name": "Wall of Force",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFreezingPulse": {
+   "name": "Freezing Pulse",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShockNova": {
+   "name": "Shock Nova",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemNewShockNova": {
+   "name": "New Shock Nova",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemViperStrike": {
+   "name": "Viper Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemNewPhaseRun": {
+   "name": "Phase Run",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPhaseRun": {
+   "name": "Phase Run",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemMeleePhysicalDamage": {
+   "name": "Melee Physical Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemItemQuantity": {
+   "name": "Item Quantity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemItemRarity": {
+   "name": "Item Rarity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterCast": {
+   "name": "Faster Casting Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemExplosiveArrow": {
+   "name": "Explosive Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTemporalChains": {
+   "name": "Temporal Chains",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemElementalWeakness": {
+   "name": "Elemental Weakness",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWarlordsMark": {
+   "name": "Warlord's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPunishment": {
+   "name": "Punishment",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemNewPunishment": {
+   "name": "NewPunishment",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnfeeble": {
+   "name": "Enfeeble",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCriticalWeakness": {
+   "name": "Assassin's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemProjectileWeakness": {
+   "name": "Sniper's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVulnerability": {
+   "name": "Despair",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningWarp": {
+   "name": "Lightning Warp",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningWarp": {
+   "name": "Vaal Lightning Warp",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonSkeletons": {
+   "name": "Summon Skeletons",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSummonSkeletons": {
+   "name": "Vaal Summon Skeletons",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeavyStrike": {
+   "name": "Heavy Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalHeavyStrike": {
+   "name": "Vaal Heavy Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDominatingBlow": {
+   "name": "Dominating Blow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRainOfArrows": {
+   "name": "Rain of Arrows",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalRainOfArrows": {
+   "name": "Vaal Rain of Arrows",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemConcentratedEffect": {
+   "name": "Concentrated Effect Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionDamage": {
+   "name": "Minion Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedDuration": {
+   "name": "More Duration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemColdToFire": {
+   "name": "Cold to Fire Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemChanceToIgnite": {
+   "name": "Combustion Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionSpeed": {
+   "name": "Minion Speed Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionLife": {
+   "name": "Minion Life Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemWeaponElementalDamage": {
+   "name": "Elemental Damage with Attacks Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBloodlust": {
+   "name": "Bloodlust Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifeGainOnHit": {
+   "name": "Life Gain on Hit Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFirestorm": {
+   "name": "Firestorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningStrike": {
+   "name": "Lightning Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningStrike": {
+   "name": "Vaal Lightning Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTempestShield": {
+   "name": "Tempest Shield",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemManaInfusedStaff": {
+   "name": "Mana-Infused Staff",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemMoltenShell": {
+   "name": "Molten Shell",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalMoltenShell": {
+   "name": "Vaal Molten Shell",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPowerSiphon": {
+   "name": "Power Siphon",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalPowerSiphon": {
+   "name": "Vaal Power Siphon",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPuncture": {
+   "name": "Puncture",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningArrow": {
+   "name": "Lightning Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHaste": {
+   "name": "Haste",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalHaste": {
+   "name": "Vaal Haste",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPurity": {
+   "name": "Purity of Elements",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVitality": {
+   "name": "Vitality",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDiscipline": {
+   "name": "Discipline",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDiscipline": {
+   "name": "Vaal Discipline",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGrace": {
+   "name": "Grace",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalGrace": {
+   "name": "Vaal Grace",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDetermination": {
+   "name": "Determination",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAnger": {
+   "name": "Anger",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHatred": {
+   "name": "Hatred",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWrath": {
+   "name": "Wrath",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBurningArrow": {
+   "name": "Burning Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalBurningArrow": {
+   "name": "Vaal Burning Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemElementalProliferation": {
+   "name": "Elemental Proliferation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBloodMagic": {
+   "name": "Arrogance Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemClarity": {
+   "name": "Clarity",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalClarity": {
+   "name": "Vaal Clarity",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCullingStrike": {
+   "name": "Culling Strike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemPointBlank": {
+   "name": "Point Blank Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIronGrip": {
+   "name": "Iron Grip Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIronWill": {
+   "name": "Iron Will Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleeDamageOnFullLife": {
+   "name": "Damage on Full Life Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellTotem": {
+   "name": "Spell Totem Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRemoteMine": {
+   "name": "Blastchain Mine Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemDetonateMines": {
+   "name": "Detonate Mines",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShockwaveTotem": {
+   "name": "Shockwave Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRejuvenationTotem": {
+   "name": "Rejuvenation Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFreezeMine": {
+   "name": "Icicle Mine",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemConversionTrap": {
+   "name": "Conversion Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBearTrap": {
+   "name": "Bear Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemChanceToFlee": {
+   "name": "Chance to Flee Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFireTrap": {
+   "name": "Fire Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFireTrap": {
+   "name": "Vaal FireTrap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDecoyTotem": {
+   "name": "Decoy Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDevouringTotem": {
+   "name": "Devouring Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEtherealKnives": {
+   "name": "Ethereal Knives",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemBlind": {
+   "name": "Blind Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemIceShot": {
+   "name": "Ice Shot",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemArcticBreath": {
+   "name": "Creeping Frost",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemArc": {
+   "name": "Arc",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalArc": {
+   "name": "Vaal Arc",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemNewArcticArmour": {
+   "name": "Arctic Armour",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemArcticArmour": {
+   "name": "Arctic Armour",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalArcticArmour": {
+   "name": "Vaal Arctic Armour",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameTotem": {
+   "name": "Holy Flame Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemRangedAttackTotem": {
+   "name": "Ballista Totem Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFirePenetration": {
+   "name": "Fire Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemColdPenetration": {
+   "name": "Cold Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLightningPenetration": {
+   "name": "Lightning Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemElementalPenetration": {
+   "name": "Elemental Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemChain": {
+   "name": "Chain Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSplit": {
+   "name": "Split Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFork": {
+   "name": "Fork Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemReturningProjectiles": {
+   "name": "Returning Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFlammability": {
+   "name": "Flammability",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostbite": {
+   "name": "Frostbite",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemConductivity": {
+   "name": "Conductivity",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormBurst": {
+   "name": "Storm Burst",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIncinerate": {
+   "name": "Incinerate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCyclone": {
+   "name": "Cyclone",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalCyclone": {
+   "name": "Vaal Cyclone",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemMultistrike": {
+   "name": "Multistrike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMulticast": {
+   "name": "Spell Echo Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleeSplash": {
+   "name": "Melee Splash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemPowerChargeOnCrit": {
+   "name": "Power Charge On Critical Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSearingBond": {
+   "name": "Searing Bond",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedBurningDamage": {
+   "name": "Burning Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSummonElementalResistance": {
+   "name": "Elemental Army Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCurseOnHit": {
+   "name": "Hextouch Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemReave": {
+   "name": "Reave",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalReave": {
+   "name": "Vaal Reave",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCastOnCrit": {
+   "name": "Cast On Critical Strike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnKill": {
+   "name": "Cast on Melee Kill Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMultiTrap": {
+   "name": "Multiple Traps Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalLevel": {
+   "name": "Empower Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemLightningTrap": {
+   "name": "Lightning Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningTrap": {
+   "name": "Vaal Lightning Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSmokeMine": {
+   "name": "Smoke Mine",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemEnduranceChargeOnMeleeStun": {
+   "name": "Endurance Charge on Melee Stun Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemAnimateArmour": {
+   "name": "Animate Guardian",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemThrownShieldProjectile": {
+   "name": "Spectral Shield Throw",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemThrownWeapon": {
+   "name": "Spectral Throw",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalThrownWeapon": {
+   "name": "Vaal Spectral Throw",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemSlowerProjectiles": {
+   "name": "Slower Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemReducedDuration": {
+   "name": "Less Duration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnDeath": {
+   "name": "Cast on Death Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnDamageTaken": {
+   "name": "Cast when Damage Taken Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnStunned": {
+   "name": "Cast when Stunned Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemAnimateWeapon": {
+   "name": "Animate Weapon",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalQuality": {
+   "name": "Enhance Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFireResistAura": {
+   "name": "Purity of Fire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFireResistAura": {
+   "name": "Vaal Impurity of Fire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemColdResistAura": {
+   "name": "Purity of Ice",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalColdResistAura": {
+   "name": "Vaal Impurity of Ice",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningResistAura": {
+   "name": "Purity of Lightning",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningResistAura": {
+   "name": "Vaal Impurity of Lightning",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormCall": {
+   "name": "Storm Call",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalStormCall": {
+   "name": "Vaal Storm Call",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameblast": {
+   "name": "Flameblast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFlameblast": {
+   "name": "Vaal Flameblast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBarrage": {
+   "name": "Barrage",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBallLightning": {
+   "name": "Ball Lightning",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVortexMine": {
+   "name": "Vortex Mine",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemInfernalSwarm": {
+   "name": "Wildfire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage": {
+   "name": "Vicious Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSummonRagingSpirit": {
+   "name": "Summon Raging Spirit",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameWhip": {
+   "name": "Flame Surge",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemAdditionalXP": {
+   "name": "Enlighten Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemDesecrate": {
+   "name": "Desecrate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFleshOffering": {
+   "name": "Flesh Offering",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBoneOffering": {
+   "name": "Bone Offering",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpiritOffering": {
+   "name": "Spirit Offering",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGlacialCascade": {
+   "name": "Glacial Cascade",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemBlockChanceReduction": {
+   "name": "Block Chance Reduction Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemMoltenStrike": {
+   "name": "Molten Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemConvocation": {
+   "name": "Convocation",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemConvocationNew": {
+   "name": "Convocation",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemComboStrike": {
+   "name": "...",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireNovaMine": {
+   "name": "Pyroclast Mine",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTornadoShot": {
+   "name": "Tornado Shot",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemGenerosity": {
+   "name": "Generosity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfAsh": {
+   "name": "Herald of Ash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfIce": {
+   "name": "Herald of Ice",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfThunder": {
+   "name": "Herald of Thunder",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfAgony": {
+   "name": "Herald of Agony",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeraldOfPurity": {
+   "name": "Herald of Purity",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoachersMark": {
+   "name": "Poacher's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTendrils": {
+   "name": "Lightning Tendrils",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTendrilsChannelled": {
+   "name": "Lightning Tendrils",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningCircle": {
+   "name": "Lightning Circle",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningChannel": {
+   "name": "Lightning Channel",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemKineticBlast": {
+   "name": "Kinetic Blast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTouchOfGod": {
+   "name": "Touch of God",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlinkArrow": {
+   "name": "Blink Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemMirrorArrow": {
+   "name": "Mirror Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRiposte": {
+   "name": "Glacial Shield Swipe",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemReckoning": {
+   "name": "Swordstorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEviscerate": {
+   "name": "Eviscerate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStaticStrike": {
+   "name": "Static Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemPhysicalToLightning": {
+   "name": "Physical to Lightning Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemVengeance": {
+   "name": "Crushing Fist",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDivineRetribution": {
+   "name": "Divine Retribution",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVengefulCry": {
+   "name": "Vengeful Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonChaosGolem": {
+   "name": "Summon Chaos Golem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonIceGolem": {
+   "name": "Summon Ice Golem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonFlameGolem": {
+   "name": "Summon Flame Golem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonLightningGolem": {
+   "name": "Summon Lightning Golem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemBlasphemy": {
+   "name": "Blasphemy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemIceCrash": {
+   "name": "Ice Crash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRallyingCry": {
+   "name": "Rallying Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAbyssalCry": {
+   "name": "Infernal Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameDash": {
+   "name": "Flame Dash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVigilantStrike": {
+   "name": "Vigilant Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFortify": {
+   "name": "Fortify Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFrostBlades": {
+   "name": "Frost Blades",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFrenzyChargeOnSlayingFrozenEnemy": {
+   "name": "Ice Bite Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDamageAgainstChilled": {
+   "name": "Hypothermia Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy": {
+   "name": "Innervate Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemMagmaOrb": {
+   "name": "Rolling Magma",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemTrapAndMineDamage": {
+   "name": "Trap and Mine Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemWildStrike": {
+   "name": "Wild Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceTrap": {
+   "name": "Ice Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlastRain": {
+   "name": "Blast Rain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelShot": {
+   "name": "Galvanic Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStaticTether": {
+   "name": "Static Tether",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladefall": {
+   "name": "Bladefall",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeVortex": {
+   "name": "Blade Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalBladeVortex": {
+   "name": "Vaal Blade Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemNewBladeVortex": {
+   "name": "New Blade Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBomb": {
+   "name": "Frost Bomb",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSiegeBallista": {
+   "name": "Siege Ballista",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemOrbOfStorms": {
+   "name": "Orb of Storms",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonRockGolem": {
+   "name": "Summon Stone Golem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRighteousLightning": {
+   "name": "Righteous Lightning",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEarthquake": {
+   "name": "Earthquake",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemPoison": {
+   "name": "Critical Strike Affliction Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemContagion": {
+   "name": "Contagion",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWither": {
+   "name": "Wither",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlight": {
+   "name": "Blight",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEssenceDrain": {
+   "name": "Essence Drain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShadowBlades": {
+   "name": "Shadow Blades",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemVoidManipulation": {
+   "name": "Void Manipulation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemControlledDestruction": {
+   "name": "Controlled Destruction Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRapidDecay": {
+   "name": "Swift Affliction Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemClusterTrap": {
+   "name": "Cluster Traps Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemMeleeTotem": {
+   "name": "Ancestral Protector",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSlashTotem": {
+   "name": "Ancestral Blademaster",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAncestralWarchief": {
+   "name": "Ancestral Warchief",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSunder": {
+   "name": "Sunder",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBolt": {
+   "name": "Frostbolt",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBoltNova": {
+   "name": "Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemElementalFocus": {
+   "name": "Elemental Focus Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinefield": {
+   "name": "Minefield Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemTrapCooldown": {
+   "name": "Advanced Traps Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemElementalProjectiles": {
+   "name": "Elemental Projectiles",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDarkPact": {
+   "name": "Dark Bargain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireBeam": {
+   "name": "Scorching Ray",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCastWhileChannelling": {
+   "name": "Cast while Channelling Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVaalSoulHarvesting": {
+   "name": "Vaal Soul Harvesting",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSummonSkeletonsChannelled": {
+   "name": "Summon Skeletons Channelled",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemIgniteProliferation": {
+   "name": "Ignite Proliferation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemChanceToBleed": {
+   "name": "Chance to Bleed Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLesserPoison": {
+   "name": "Chance to Poison Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDeadlyAilments": {
+   "name": "Deadly Ailments Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemTemporaryForTutorial": {
+   "name": "Lesser Reduced Mana Cost Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDecay": {
+   "name": "Decay Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEfficacy": {
+   "name": "Efficacy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVileToxins": {
+   "name": "Vile Toxins Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMaim": {
+   "name": "Maim Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemImmolate": {
+   "name": "Immolate Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnboundAilments": {
+   "name": "Unbound Ailments Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBrutality": {
+   "name": "Brutality Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRuthless": {
+   "name": "Ruthless Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemOnslaught": {
+   "name": "Momentum Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemArcaneSurge": {
+   "name": "Arcane Surge Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemInfernalSweep": {
+   "name": "Infernal Sweep",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCorpseEruption": {
+   "name": "Cremation",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCorpseWarp": {
+   "name": "Bodyswap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpectralSpinningWeapon": {
+   "name": "Spectral Spinning Weapon",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTectonicSlam": {
+   "name": "Tectonic Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemStormBarrier": {
+   "name": "Infused Channelling Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemParallelProjectiles": {
+   "name": "Volley Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellCascade": {
+   "name": "Spell Cascade Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpiritStrike": {
+   "name": "Ancestral Call Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSummonGhostOnKill": {
+   "name": "Summon Phantasm Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMirageArcher": {
+   "name": "Mirage Archer Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemNewVulnerability": {
+   "name": "Vulnerability",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCaptureMonster": {
+   "name": "Capture Monster",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelTrap": {
+   "name": "Explosive Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceSiphonTrap": {
+   "name": "Siphoning Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlamethrowerTrap": {
+   "name": "Flamethrower Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTowerTrap": {
+   "name": "Lightning Spire Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPhysCascadeTrap": {
+   "name": "Seismic Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFleshOffering": {
+   "name": "Vaal Flesh Offering",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalEarthquake": {
+   "name": "Vaal Earthquake",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalBlight": {
+   "name": "Vaal Blight",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFrenzyPowerOnTrapTrigger": {
+   "name": "Charged Traps Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemChargedMines": {
+   "name": "Charged Mines Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemVaalAncestralWarchief": {
+   "name": "Vaal Ancestral Warchief",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemConsecratedPath": {
+   "name": "Consecrated Path",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSmite": {
+   "name": "Smite",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemScourgeArrow": {
+   "name": "Scourge Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemToxicRain": {
+   "name": "Toxic Rain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonRelic": {
+   "name": "Summon Holy Relic",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemChaosAttacks": {
+   "name": "Withering Touch Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBonechill": {
+   "name": "Bonechill Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemWinterOrb": {
+   "name": "Winter Orb",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRendingSteel": {
+   "name": "Rending Steel",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLancingSteel": {
+   "name": "Lancing Steel",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormBrand": {
+   "name": "Storm Brand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWarBanner": {
+   "name": "War Banner",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDreadBanner": {
+   "name": "Dread Banner",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShatteringSteel": {
+   "name": "Shattering Steel",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemMultiTotem": {
+   "name": "Multiple Totems Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemArmageddonBrand": {
+   "name": "Armageddon Brand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRecallBrands": {
+   "name": "Brand Recall",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSanctify": {
+   "name": "Purifying Flame",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSoulrend": {
+   "name": "Soulrend",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDarkRitual": {
+   "name": "Bane",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemEnergyShieldLeech": {
+   "name": "Energy Leech Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemPurge": {
+   "name": "Wave of Conviction",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpellDamageAura": {
+   "name": "Zealotry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDivineTempest": {
+   "name": "Divine Ire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDamageOverTimeAura": {
+   "name": "Malevolence",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemHandcastRapidFire": {
+   "name": "[UNUSED] Handcast Rapid Fire",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHandcastSpellBoost": {
+   "name": "Intensify Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHandcastAnticipation": {
+   "name": "Unleash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSteelskin": {
+   "name": "Steelskin",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDash": {
+   "name": "Dash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemQuickBlock": {
+   "name": "[UNUSED] Quick Block",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemReplicate": {
+   "name": "[UNUSED] Replicate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladestorm": {
+   "name": "Bladestorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodAndSand": {
+   "name": "Blood and Sand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBerserk": {
+   "name": "Berserk",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPerforate": {
+   "name": "Perforate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemChainHook": {
+   "name": "Chain Hook",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlitz": {
+   "name": "[UNUSED] Blitz",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCloseCombat": {
+   "name": "Close Combat Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemShockwave": {
+   "name": "Shockwave Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFrostblink": {
+   "name": "Frostblink",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPrecision": {
+   "name": "Precision",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFleshAndStone": {
+   "name": "Flesh and Stone",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemImpale": {
+   "name": "Impale Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSliceAndDice": {
+   "name": "[UNUSED] Slice And Dice",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPride": {
+   "name": "Pride",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemPulverise": {
+   "name": "Pulverise Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRage": {
+   "name": "Rage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemCobraLash": {
+   "name": "Cobra Lash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonCarrionGolem": {
+   "name": "Summon Carrion Golem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWitheringStep": {
+   "name": "Withering Step",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPlagueBearer": {
+   "name": "Plague Bearer",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFeedingFrenzy": {
+   "name": "Feeding Frenzy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDeathmark": {
+   "name": "Predator Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSerpentStrike": {
+   "name": "[UNUSED] Serpent Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemNightblade": {
+   "name": "Nightblade Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeatShield": {
+   "name": "Meat Shield Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemCoilingAssault": {
+   "name": "[UNUSED] Coiling Assault",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormblastMine": {
+   "name": "Stormblast Mine",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonSkitterbots": {
+   "name": "Summon Skitterbots",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemHighImpactMineSupport": {
+   "name": "High-Impact Mine Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemInfernalLegion": {
+   "name": "Infernal Legion Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemPestilentStrike": {
+   "name": "Pestilent Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVenomGyre": {
+   "name": "Venom Gyre",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemSwiftAssembly": {
+   "name": "Swift Assembly Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelBallista": {
+   "name": "Shrapnel Ballista",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemArrowNova": {
+   "name": "Arrow Nova Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBarrage": {
+   "name": "Barrage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemEnsnaringArrow": {
+   "name": "Ensnaring Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemArtilleryBallista": {
+   "name": "Artillery Ballista",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemGreaterVolley": {
+   "name": "Greater Volley Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedFireDamagePlus": {
+   "name": "Awakened Added Fire Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAncestralCallPlus": {
+   "name": "Awakened Ancestral Call Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBrutalityPlus": {
+   "name": "Awakened Brutality Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBurningDamagePlus": {
+   "name": "Awakened Burning Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemWeaponElementalDamagePlus": {
+   "name": "Awakened Elemental Damage with Attacks Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFirePenetrationPlus": {
+   "name": "Awakened Fire Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGenerosityPlus": {
+   "name": "Awakened Generosity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleePhysicalDamagePlus": {
+   "name": "Awakened Melee Physical Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMeleeSplashPlus": {
+   "name": "Awakened Melee Splash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMultistrikePlus": {
+   "name": "Awakened Multistrike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedColdDamagePlus": {
+   "name": "Awakened Added Cold Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemArrowNovaPlus": {
+   "name": "Awakened Arrow Nova Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnCritPlus": {
+   "name": "Awakened Cast On Critical Strike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemChainPlus": {
+   "name": "Awakened Chain Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemColdPenetrationPlus": {
+   "name": "Awakened Cold Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDeadlyAilmentsPlus": {
+   "name": "Awakened Deadly Ailments Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemForkPlus": {
+   "name": "Awakened Fork Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterMultipleProjectilesPlus": {
+   "name": "Awakened Greater Multiple Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSwiftAfflictionPlus": {
+   "name": "Awakened Swift Affliction Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVoidManipulationPlus": {
+   "name": "Awakened Void Manipulation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemViciousProjectilesPlus": {
+   "name": "Awakened Vicious Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedChaosDamagePlus": {
+   "name": "Awakened Added Chaos Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedLightningDamagePlus": {
+   "name": "Awakened Added Lightning Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBlasphemyPlus": {
+   "name": "Awakened Blasphemy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastWhileChannellingPlus": {
+   "name": "Awakened Cast While Channelling Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemControlledDestructionPlus": {
+   "name": "Awakened Controlled Destruction Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCurseOnHitPlus": {
+   "name": "Awakened Hextouch Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemElementalFocusPlus": {
+   "name": "Awakened Elemental Focus Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffectPlus": {
+   "name": "Awakened Increased Area of Effect Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLightningPenetrationPlus": {
+   "name": "Awakened Lightning Penetration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionDamagePlus": {
+   "name": "Awakened Minion Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellCascadePlus": {
+   "name": "Awakened Spell Cascade Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellEchoPlus": {
+   "name": "Awakened Spell Echo Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnboundAilmentsPlus": {
+   "name": "Awakened Unbound Ailments Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnleashPlus": {
+   "name": "Awakened Unleash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEmpowerPlus": {
+   "name": "Awakened Empower Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEnlightenPlus": {
+   "name": "Awakened Enlighten Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEnhancePlus": {
+   "name": "Awakened Enhance Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemArcaneCloak": {
+   "name": "Arcane Cloak",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemProjectilePortal": {
+   "name": "[UNUSED] Projectile Portal",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormBind": {
+   "name": "Stormbind",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemKineticBolt": {
+   "name": "Kinetic Bolt",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeBlast": {
+   "name": "Blade Blast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodWhirl": {
+   "name": "[UNUSED] Blood Whirl",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpellslinger": {
+   "name": "Spellslinger",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemArchmage": {
+   "name": "Archmage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSecondWind": {
+   "name": "Second Wind Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemArcanistBrand": {
+   "name": "Arcanist Brand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIntimidatingCry": {
+   "name": "Intimidating Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSeismicCry": {
+   "name": "Seismic Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAncestralCry": {
+   "name": "Ancestral Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPenanceBrand": {
+   "name": "Penance Brand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWintertideBrand": {
+   "name": "Wintertide Brand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEarthshatter": {
+   "name": "Earthshatter",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGeneralsCry": {
+   "name": "General's Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFistOfWar": {
+   "name": "Fist of War Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSwiftbrand": {
+   "name": "Swiftbrand Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemUrgentOrders": {
+   "name": "Urgent Orders Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemBlazingSalvo": {
+   "name": "Blazing Salvo",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVoidSphere": {
+   "name": "Void Sphere",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCracklingLance": {
+   "name": "Crackling Lance",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostShield": {
+   "name": "Frost Shield",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSplittingSteel": {
+   "name": "Splitting Steel",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSigilOfPower": {
+   "name": "Sigil of Power",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameWall": {
+   "name": "Flame Wall",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemImpendingDoom": {
+   "name": "Impending Doom Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemHexblast": {
+   "name": "Hexblast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemPinpoint": {
+   "name": "Pinpoint Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemFlammableShot": {
+   "name": "Flammable Shot",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHydrosphere": {
+   "name": "Hydrosphere",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemTrinity": {
+   "name": "Trinity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemDeathAura": {
+   "name": "Death Aura",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnvy": {
+   "name": "Envy",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGluttonyOfElements": {
+   "name": "Gluttony of Elements",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlindingAura": {
+   "name": "Blinding Aura",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemExsanguinate": {
+   "name": "Exsanguinate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCorruptingFever": {
+   "name": "Corrupting Fever",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemBloodthirst": {
+   "name": "Bloodthirst Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemBloodreap": {
+   "name": "Reap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPetrifiedBlood": {
+   "name": "Petrified Blood",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCruelty": {
+   "name": "Cruelty Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifetap": {
+   "name": "Lifetap Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemChargedAttackRoyale": {
+   "name": "Blade Flurry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCycloneRoyale": {
+   "name": "Cyclone",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDualStrikeRoyale": {
+   "name": "Dual Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLacerateRoyale": {
+   "name": "Lacerate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladestormRoyale": {
+   "name": "Bladestorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemChainHookRoyale": {
+   "name": "Chain Hook",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEarthquakeRoyale": {
+   "name": "Earthquake",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemMeleeTotemRoyale": {
+   "name": "Ancestral Protector",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAncestralWarchiefRoyale": {
+   "name": "Ancestral Warchief",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGeneralsCryRoyale": {
+   "name": "General's Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLeapSlamRoyale": {
+   "name": "Leap Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShieldChargeRoyale": {
+   "name": "Shield Charge",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemChargedDashRoyale": {
+   "name": "Charged Dash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGlacialHammerRoyale": {
+   "name": "Glacial Hammer",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceCrashRoyale": {
+   "name": "Ice Crash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemMoltenStrikeRoyale": {
+   "name": "Molten Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSmiteRoyale": {
+   "name": "Smite",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemThrownShieldProjectileRoyale": {
+   "name": "Spectral Shield Throw",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemThrownWeaponRoyale": {
+   "name": "Spectral Throw",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVenomGyreRoyale": {
+   "name": "Venom Gyre",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWhirlingBladesRoyale": {
+   "name": "Whirling Blades",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPunctureRoyale": {
+   "name": "Puncture",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRainOfArrowsRoyale": {
+   "name": "Rain of Arrows",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemScourgeArrowRoyale": {
+   "name": "Scourge Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemToxicRainRoyale": {
+   "name": "Toxic Rain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlinkArrowRoyale": {
+   "name": "Blink Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnsnaringArrowRoyale": {
+   "name": "Ensnaring Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlastRainRoyale": {
+   "name": "Blast Rain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemElementalHitRoyale": {
+   "name": "Elemental Hit",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeBlastRoyale": {
+   "name": "Blade Blast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeVortexRoyale": {
+   "name": "Blade Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladefallRoyale": {
+   "name": "Bladefall",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodreapRoyale": {
+   "name": "Reap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVoidSphereRoyale": {
+   "name": "Void Sphere",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDivineTempestRoyale": {
+   "name": "Divine Ire",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFirestormRoyale": {
+   "name": "Firestorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBoltRoyale": {
+   "name": "Frostbolt",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceNovaRoyale": {
+   "name": "Ice Nova",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTendrilsRoyale": {
+   "name": "Lightning Tendrils",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSanctifyRoyale": {
+   "name": "Purifying Flame",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemMagmaOrbRoyale": {
+   "name": "Rolling Magma",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormCallRoyale": {
+   "name": "Storm Call",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCorpseEruptionRoyale": {
+   "name": "Cremation",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBombRoyale": {
+   "name": "Frost Bomb",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHydrosphereRoyale": {
+   "name": "Hydrosphere",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPurgeRoyale": {
+   "name": "Wave of Conviction",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlightRoyale": {
+   "name": "Blight",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEssenceDrainRoyale": {
+   "name": "Essence Drain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemArcticBreathRoyale": {
+   "name": "Creeping Frost",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBoltNovaRoyale": {
+   "name": "Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameTotemRoyale": {
+   "name": "Holy Flame Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemArtilleryBallistaRoyale": {
+   "name": "Artillery Ballista",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSiegeBallistaRoyale": {
+   "name": "Siege Ballista",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireTrapRoyale": {
+   "name": "Fire Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceTrapRoyale": {
+   "name": "Ice Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTrapRoyale": {
+   "name": "Lightning Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceSiphonTrapRoyale": {
+   "name": "Siphoning Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlamethrowerTrapRoyale": {
+   "name": "Flamethrower Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningTowerTrapRoyale": {
+   "name": "Lightning Spire Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPrecisionRoyale": {
+   "name": "Precision",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVitalityRoyale": {
+   "name": "Vitality",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemClarityRoyale": {
+   "name": "Clarity",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodAndSandRoyale": {
+   "name": "Blood and Sand",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDashRoyale": {
+   "name": "Dash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDesecrateRoyale": {
+   "name": "Desecrate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPhaseRunRoyale": {
+   "name": "Phase Run",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoachersMarkRoyale": {
+   "name": "Poacher's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCriticalWeaknessRoyale": {
+   "name": "Assassin's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWarlordsMarkRoyale": {
+   "name": "Warlord's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemElementalWeaknessRoyale": {
+   "name": "Elemental Weakness",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemNewVulnerabilityRoyale": {
+   "name": "Vulnerability",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVulnerabilityRoyale": {
+   "name": "Despair",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnduringCryRoyale": {
+   "name": "Enduring Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRejuvenationTotemRoyale": {
+   "name": "Rejuvenation Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemLightningWarpRoyale": {
+   "name": "Lightning Warp",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameDashRoyale": {
+   "name": "Flame Dash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostblinkRoyale": {
+   "name": "Frostblink",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSmokeMineRoyale": {
+   "name": "Smoke Mine",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemMultistrikeRoyale": {
+   "name": "Multistrike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellCascadeRoyale": {
+   "name": "Spell Cascade Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHandcastAnticipationRoyale": {
+   "name": "Unleash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMultiTotemRoyale": {
+   "name": "Multiple Totems Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedColdDamageRoyale": {
+   "name": "Added Cold Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAddedLightningDamageRoyale": {
+   "name": "Added Lightning Damage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRageRoyale": {
+   "name": "Rage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterAttackRoyale": {
+   "name": "Faster Attacks Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFasterCastRoyale": {
+   "name": "Faster Casting Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRangedAttackTotemRoyale": {
+   "name": "Ballista Totem Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellTotemRoyale": {
+   "name": "Spell Totem Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemTrapRoyale": {
+   "name": "Trap Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemTrapCooldownRoyale": {
+   "name": "Advanced Traps Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLesserMultipleProjectilesRoyale": {
+   "name": "Multiple Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemParallelProjectilesRoyale": {
+   "name": "Volley Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedAreaOfEffectRoyale": {
+   "name": "Increased Area of Effect Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBlindRoyale": {
+   "name": "Blind Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLifetapRoyale": {
+   "name": "Lifetap Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedDurationRoyale": {
+   "name": "Increased Duration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemReducedDurationRoyale": {
+   "name": "Less Duration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastWhileChannellingRoyale": {
+   "name": "Cast while Channelling Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemImpendingDoomRoyale": {
+   "name": "Impending Doom Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpiritStrikeRoyale": {
+   "name": "Ancestral Call Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemDefianceBanner": {
+   "name": "Defiance Banner",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVoltaxicBurst": {
+   "name": "Voltaxic Burst",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemRageVortex": {
+   "name": "Rage Vortex",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSpectralHelix": {
+   "name": "Spectral Helix",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBattlemagesCry": {
+   "name": "Battlemage's Cry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemEarthbreaker": {
+   "name": "Earthbreaker Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemAbsolution": {
+   "name": "Absolution",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemArrowNovaRoyale": {
+   "name": "Arrow Nova Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBlasphemyRoyale": {
+   "name": "Blasphemy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnDeathRoyale": {
+   "name": "Cast on Death Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFistOfWarRoyale": {
+   "name": "Fist of War Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFortifyRoyale": {
+   "name": "Fortify Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSecondWindRoyale": {
+   "name": "Second Wind Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMulticastRoyale": {
+   "name": "Spell Echo Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSummonGhostOnKillRoyale": {
+   "name": "Summon Phantasm Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSearingBondRoyale": {
+   "name": "Searing Bond",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShockwaveTotemRoyale": {
+   "name": "Shockwave Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBurningArrowRoyale": {
+   "name": "Burning Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoisonArrowRoyale": {
+   "name": "Caustic Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShrapnelShotRoyale": {
+   "name": "Galvanic Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonSkeletonsRoyale": {
+   "name": "Summon Skeletons",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSummonRagingSpiritRoyale": {
+   "name": "Summon Raging Spirit",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDetonateDeadRoyale": {
+   "name": "Detonate Dead",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEtherealKnivesRoyale": {
+   "name": "Ethereal Knives",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBoneLanceRoyale": {
+   "name": "Unearth",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBallLightningRoyale": {
+   "name": "Ball Lightning",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBlazingSalvoRoyale": {
+   "name": "Blazing Salvo",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemColdSnapRoyale": {
+   "name": "Cold Snap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDarkPactRoyale": {
+   "name": "Dark Bargain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFireballRoyale": {
+   "name": "Fireball",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGlacialCascadeRoyale": {
+   "name": "Glacial Cascade",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrostBladesRoyale": {
+   "name": "Frost Blades",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShatteringSteelRoyale": {
+   "name": "Shattering Steel",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemWildStrikeRoyale": {
+   "name": "Wild Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCleaveRoyale": {
+   "name": "Cleave",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDominatingBlowRoyale": {
+   "name": "Dominating Blow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemInfernalBlowRoyale": {
+   "name": "Infernal Blow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSunderRoyale": {
+   "name": "Sunder",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFasterProjectilesRoyale": {
+   "name": "Faster Projectiles Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemPointBlankRoyale": {
+   "name": "Point Blank Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemChanceToBleedRoyale": {
+   "name": "Chance to Bleed Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemKnockbackRoyale": {
+   "name": "Knockback Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMaimRoyale": {
+   "name": "Maim Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemStunRoyale": {
+   "name": "Stun Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemConcentratedEffectRoyale": {
+   "name": "Concentrated Effect Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemIncreasedCriticalStrikesRoyale": {
+   "name": "Increased Critical Strikes Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemLightningArrowRoyale": {
+   "name": "Lightning Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemExplosiveArrowRoyale": {
+   "name": "Explosive Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemViperStrikeRoyale": {
+   "name": "Viper Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSweepRoyale": {
+   "name": "Sweep",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIncinerateRoyale": {
+   "name": "Incinerate",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShockNovaRoyale": {
+   "name": "Shock Nova",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceShotRoyale": {
+   "name": "Ice Shot",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFreezingPulseRoyale": {
+   "name": "Freezing Pulse",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGroundSlamRoyale": {
+   "name": "Ground Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBearTrapRoyale": {
+   "name": "Bear Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHeavyStrikeRoyale": {
+   "name": "Heavy Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCobraLashRoyale": {
+   "name": "Cobra Lash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIceSpearRoyale": {
+   "name": "Ice Spear",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemMeleeSplashRoyale": {
+   "name": "Melee Splash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemForbiddenRite": {
+   "name": "Forbidden Rite",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAmbush": {
+   "name": "Ambush",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemManabond": {
+   "name": "Manabond",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBladeTrap": {
+   "name": "Blade Trap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemStormRain": {
+   "name": "Storm Rain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShieldCrush": {
+   "name": "Shield Crush",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemBloodOffering": {
+   "name": "Blood Offering",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFocusedBallista": {
+   "name": "Focused Ballista Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemSummonReaper": {
+   "name": "Summon Reaper",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemBehead": {
+   "name": "Behead Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemBoneshatter": {
+   "name": "Boneshatter",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemExplosiveConcoction": {
+   "name": "Explosive Concoction",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEyeOfWinter": {
+   "name": "Eye of Winter",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPoisonousConcoction": {
+   "name": "Poisonous Concoction",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCallOfTheWild": {
+   "name": "[DNT] Call of the Wild",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTemporalRift": {
+   "name": "Temporal Rift",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemTornado": {
+   "name": "Tornado",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemEnergyBlade": {
+   "name": "Energy Blade",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSoulLink": {
+   "name": "Soul Link",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFlameLink": {
+   "name": "Flame Link",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVampiricLink": {
+   "name": "Vampiric Link",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemProtectiveLink": {
+   "name": "Protective Link",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemIntuitiveLink": {
+   "name": "Intuitive Link",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDestructiveLink": {
+   "name": "Destructive Link",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemDivineBlessing": {
+   "name": "Divine Blessing Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMarkOnHit": {
+   "name": "Mark On Hit Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEternalBlessing": {
+   "name": "Eternal Blessing Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemOvercharge": {
+   "name": "Overcharge Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemLightningConduit": {
+   "name": "Lightning Conduit",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemGalvanicField": {
+   "name": "Galvanic Field",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemAlchemistsMark": {
+   "name": "Alchemist's Mark",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVolcanicFissure": {
+   "name": "Volcanic Fissure",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalVolcanicFissure": {
+   "name": "Vaal Volcanic Fissure",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemFrozenLegion": {
+   "name": "Frozen Legion",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalCleave": {
+   "name": "Vaal Cleave",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalCausticArrow": {
+   "name": "Vaal Caustic Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalMoltenStrike": {
+   "name": "Vaal Molten Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemCursedGround": {
+   "name": "Cursed Ground Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHexBloom": {
+   "name": "Hex Bloom Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemVaalVenomGyre": {
+   "name": "Vaal Venom Gyre",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSmite": {
+   "name": "Vaal Smite",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalChargedAttack": {
+   "name": "Vaal Blade Flurry",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalReap": {
+   "name": "Vaal Reap",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalAnimateWeapon": {
+   "name": "Vaal Animate Weapon",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalLightningArrow": {
+   "name": "Vaal Lightning Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalAbsolution": {
+   "name": "Vaal Absolution",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalDomination": {
+   "name": "Vaal Domination",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalIceShot": {
+   "name": "Vaal Ice Shot",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalFirestorm": {
+   "name": "Vaal Firestorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalRejuvenationTotem": {
+   "name": "Vaal Rejuvenation Totem",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemVaalSplitArrow": {
+   "name": "Vaal Split Arrow",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemManaforgedArrows": {
+   "name": "Manaforged Arrows Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemPrismaticBurst": {
+   "name": "Prismatic Burst Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemChannelledSnipe": {
+   "name": "Snipe",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemConflagration": {
+   "name": "Conflagration",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemKineticRain": {
+   "name": "Kinetic Rain",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemSomaticShell": {
+   "name": "Somatic Shell",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemThunderstorm": {
+   "name": "Thunderstorm",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemKineticFusillade": {
+   "name": "Kinetic Fusillade",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHolyHammers": {
+   "name": "Holy Hammers",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemShieldOfLight": {
+   "name": "Shield of Light",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemHolyStrike": {
+   "name": "Holy Strike",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemDivineBlast": {
+   "name": "Divine Blast",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemQuickstep": {
+   "name": "Quickstep",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemTrauma": {
+   "name": "Trauma Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSpellblade": {
+   "name": "Spellblade Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDevour": {
+   "name": "Devour Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFreshMeat": {
+   "name": "Fresh Meat Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFlamewood": {
+   "name": "Flamewood Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCorruptingCry": {
+   "name": "Corrupting Cry Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemConflagration": {
+   "name": "[UNUSED] Conflagration Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGuardiansBlessing": {
+   "name": "Guardian's Blessing Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSacrifice": {
+   "name": "Sacrifice Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFrigidBond": {
+   "name": "Frigid Bond Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLocusMine": {
+   "name": "Locus Mine Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemSadism": {
+   "name": "Sadism Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemControlledBlaze": {
+   "name": "Controlled Blaze Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVolatility": {
+   "name": "Volatility Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SkillGemAutomation": {
+   "name": "Automation",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemCallToArms": {
+   "name": "Autoexertion",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemSacredWisps": {
+   "name": "Sacred Wisps Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemOverexertion": {
+   "name": "Overexertion Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemExpertRetaliation": {
+   "name": "Expert Retaliation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemRupture": {
+   "name": "Rupture Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterSpellCascade": {
+   "name": "Greater Spell Cascade Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEclipse": {
+   "name": "Eclipse Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemInvertTheRules": {
+   "name": "Invert the Rules Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCastOnWardBreak": {
+   "name": "Cast on Ward Break Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemWard": {
+   "name": "Ward Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVaalSacrifice": {
+   "name": "Vaal Sacrifice Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterSpellEcho": {
+   "name": "Greater Spell Echo Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVaalTemptation": {
+   "name": "Vaal Temptation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMachinations": {
+   "name": "Machinations Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemPyre": {
+   "name": "Pyre Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBonespire": {
+   "name": "Bonespire Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFoulgrasp": {
+   "name": "Foulgrasp Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHiveborn": {
+   "name": "Hiveborn Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemScornfulHerald": {
+   "name": "Scornful Herald Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCullTheWeak": {
+   "name": "Cull the Weak Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterAncestralCall": {
+   "name": "Greater Ancestral Call Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFissure": {
+   "name": "Fissure Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHextoad": {
+   "name": "Hextoad Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHexpass": {
+   "name": "Hexpass Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterFork": {
+   "name": "Greater Fork Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterChain": {
+   "name": "Greater Chain Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLethalDose": {
+   "name": "Lethal Dose Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCompanionship": {
+   "name": "Companionship Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemDivineSentinel": {
+   "name": "Divine Sentinel Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemAnnihilation": {
+   "name": "Annihilation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEdify": {
+   "name": "Edify Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemInvention": {
+   "name": "Invention Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterKineticInstability": {
+   "name": "Greater Kinetic Instability Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCooldownRecovery": {
+   "name": "Cooldown Recovery Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVoidstorm": {
+   "name": "Voidstorm Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemVoidShockwave": {
+   "name": "Void Shockwave Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemEldritchBlasphemy": {
+   "name": "Eldritch Blasphemy Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGluttony": {
+   "name": "Gluttony Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemOverheat": {
+   "name": "Overheat Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterMultistrike": {
+   "name": "Greater Multistrike Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCongregation": {
+   "name": "Congregation Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemFrostmage": {
+   "name": "Frostmage Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterDevour": {
+   "name": "Greater Devour Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMagnetism": {
+   "name": "Magnetism Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemGreaterUnleash": {
+   "name": "Greater Unleash Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemPacifism": {
+   "name": "Pacifism Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBloodsoakedBanner": {
+   "name": "Bloodsoaked Banner Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemMinionPact": {
+   "name": "Communion Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHarrowingThrong": {
+   "name": "Harrowing Throng Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemUnholyTrinity": {
+   "name": "Unholy Trinity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemOverloadedIntensity": {
+   "name": "Overloaded Intensity Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemTransfusion": {
+   "name": "Transfusion Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCrustaceousGrasp": {
+   "name": "Coursing Current Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemCrystalfall": {
+   "name": "Crystalfall Support",
+   "support": true
+  },
+  "Metadata/Items/Chayula/XophGraftGem1": {
+   "name": "Heart of Flame",
+   "support": false
+  },
+  "Metadata/Items/Chayula/XophGraftGem2": {
+   "name": "His Burning Message",
+   "support": false
+  },
+  "Metadata/Items/Chayula/XophGraftGem3": {
+   "name": "Call the Pyre",
+   "support": false
+  },
+  "Metadata/Items/Chayula/XophGraftGem4": {
+   "name": "The Grey Wind Howls",
+   "support": false
+  },
+  "Metadata/Items/Chayula/UulNetolGraftGem1": {
+   "name": "Return to Dust",
+   "support": false
+  },
+  "Metadata/Items/Chayula/UulNetolGraftGem2": {
+   "name": "Seize the Flesh",
+   "support": false
+  },
+  "Metadata/Items/Chayula/UulNetolGraftGem3": {
+   "name": "Violent Desire",
+   "support": false
+  },
+  "Metadata/Items/Chayula/UulNetolGraftGem4": {
+   "name": "Tender Embrace",
+   "support": false
+  },
+  "Metadata/Items/Chayula/EshGraftGem1": {
+   "name": "Wreathed in Light",
+   "support": false
+  },
+  "Metadata/Items/Chayula/EshGraftGem2": {
+   "name": "Glowing Silhouette",
+   "support": false
+  },
+  "Metadata/Items/Chayula/EshGraftGem3": {
+   "name": "Enervating Grasp",
+   "support": false
+  },
+  "Metadata/Items/Chayula/EshGraftGem4": {
+   "name": "Overcharged Sinews",
+   "support": false
+  },
+  "Metadata/Items/Chayula/TulGraftGem1": {
+   "name": "Dance in the White",
+   "support": false
+  },
+  "Metadata/Items/Chayula/TulGraftGem2": {
+   "name": "Falling Crystals",
+   "support": false
+  },
+  "Metadata/Items/Chayula/TulGraftGem3": {
+   "name": "The Great Avalanche",
+   "support": false
+  },
+  "Metadata/Items/Chayula/TulGraftGem4": {
+   "name": "Preserving Stillness",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPlaytestAttack": {
+   "name": "Playtest Attack",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPlaytestSpell": {
+   "name": "Playtest Spell",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPlaytestSlam": {
+   "name": "Playtest Slam",
+   "support": false
+  },
+  "Metadata/Items/Gems/SupportGemFocusedChannelling": {
+   "name": "Focused Channelling Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemWindburst": {
+   "name": "Windburst Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemKineticInstability": {
+   "name": "Kinetic Instability Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemLivingLightning": {
+   "name": "Living Lightning Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemExcommunicate": {
+   "name": "Excommunicate Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemExemplar": {
+   "name": "Exemplar Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemBlessedCall": {
+   "name": "Blessed Call Support",
+   "support": true
+  },
+  "Metadata/Items/Gems/SupportGemHallow": {
+   "name": "Hallow Support",
+   "support": true
+  },
+  "Metadata/Items/Gem/SkillGemCallMercenary": {
+   "name": "Order: To me!",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPactOfBeidat": {
+   "name": "Pact of Beidat",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPactOfGhorr": {
+   "name": "Pact of Ghorr",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPactOfKtash": {
+   "name": "Pact of K'Tash",
+   "support": false
+  },
+  "Metadata/Items/Gems/SkillGemPactOfLycia": {
+   "name": "Pact of Lycia",
+   "support": false
+  }
+ }
+}
