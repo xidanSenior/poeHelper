@@ -4,6 +4,8 @@
 
 **Лёгкий оверлей для Path of Exile 1: маршрут по актам и навигация по лабиринту прямо поверх игры**
 
+[![Release](https://img.shields.io/github/v/release/xidanSenior/poeHelper?label=версия&color=AF6025)](https://github.com/xidanSenior/poeHelper/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/xidanSenior/poeHelper/total?label=скачиваний)](https://github.com/xidanSenior/poeHelper/releases)
 [![Tauri](https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white)](https://tauri.app)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Rust](https://img.shields.io/badge/Rust-stable-CE422B?logo=rust&logoColor=white)](https://www.rust-lang.org)
@@ -24,30 +26,25 @@
 
 ## ⚡ Быстрый старт
 
-**1. Установи инструменты** (один раз):
+<div align="center">
 
-- [Node.js](https://nodejs.org): скачай LTS и установи
-- [Rust](https://rustup.rs): скачай `rustup-init.exe`, запусти, во всех вопросах жми Enter
-- [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/): в установщике отметь **«Desktop development with C++»**
+### [⬇️ Скачать установщик](https://github.com/xidanSenior/poeHelper/releases/latest)
 
-**2. Собери установщик оверлея.** Открой терминал в папке проекта и выполни:
+<sub>Файл `PoE Overlay_x.y.z_x64-setup.exe`, около 2 МБ. Windows 10/11.</sub>
 
-```bash
-npm install
-npm run installer
-```
+</div>
 
-Первая сборка займёт 5–10 минут. Готовый установщик появится здесь:
+**1. Скачай и запусти установщик.** На странице релиза открой раздел **Assets** и скачай файл `…_x64-setup.exe`. Права администратора не нужны.
 
-```
-src-tauri\target\release\bundle\nsis\PoE Overlay_0.1.0_x64-setup.exe
-```
+> [!WARNING]
+> Установщик не подписан цифровой подписью, поэтому Windows покажет «Windows защитила ваш компьютер».
+> Нажми **«Подробнее» → «Выполнить в любом случае»**.
 
-**3. Установи и запусти.** Запусти этот `.exe`, права администратора не нужны. Оверлей появится в левом верхнем углу экрана, а его иконка в трее.
+**2. Готово к работе.** Оверлей появится в левом верхнем углу экрана, а его иконка ⓟ в трее рядом с часами.
 
-**4. Настрой игру.** В PoE: `Options → Graphics → Display Mode` → **Windowed Fullscreen**.
+**3. Настрой игру.** В PoE: `Options → Graphics → Display Mode` → **Windowed Fullscreen**.
 
-**5. Загрузи маршрут.**
+**4. Загрузи маршрут.**
 
 1. Открой [exile-leveling](https://heartofphos.github.io/exile-leveling/) → меню ☰ → **3rd-Party Export**
 2. В игре нажми <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>, оверлей перейдёт в режим настройки
@@ -101,33 +98,17 @@ src-tauri\target\release\bundle\nsis\PoE Overlay_0.1.0_x64-setup.exe
 
 ## 📦 Установка
 
-Готового установщика для скачивания пока нет, поэтому оверлей собирается из исходников.
+1. Открой страницу **[последнего релиза](https://github.com/xidanSenior/poeHelper/releases/latest)**
+2. В разделе **Assets** скачай `PoE Overlay_x.y.z_x64-setup.exe`
+3. Запусти его. Установка идёт только для текущего пользователя, права администратора не нужны
+4. Переключи PoE в режим **Windowed Fullscreen** (`Options → Graphics → Display Mode`)
 
-### Что нужно
-
-| Что | Где взять | Зачем |
-| --- | --- | --- |
-| Node.js 20+ | https://nodejs.org | Сборка интерфейса |
-| Rust (stable) | https://rustup.rs | Сборка приложения |
-| MSVC Build Tools | [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) → «Desktop development with C++» | Компилятор для Rust под Windows |
-| WebView2 | Уже есть в Windows 10/11 | Отрисовка окна |
-
-### Сборка
-
-```bash
-npm install          # зависимости, один раз
-npm run installer    # сборка установщика
-```
-
-Результат: `src-tauri\target\release\bundle\nsis\PoE Overlay_<версия>_x64-setup.exe`.
-
-### Установка
-
-1. Запусти собранный `-setup.exe`. Права администратора не нужны, установка идёт только для текущего пользователя
-2. Переключи PoE в режим **Windowed Fullscreen** (`Options → Graphics → Display Mode`)
+Ничего дополнительно ставить не нужно: если в системе нет WebView2, установщик скачает его сам.
 
 > [!NOTE]
 > В эксклюзивном полноэкранном режиме (`Fullscreen`) Windows не показывает окна поверх игры.
+
+**Обновление:** скачай установщик новой версии и запусти его поверх старой. Настройки, маршрут и раскладки лабы сохранятся.
 
 **Удаление:** «Параметры Windows → Приложения» → PoE Overlay → Удалить.
 
@@ -192,12 +173,38 @@ C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt
 
 ## 🛠️ Разработка
 
+Нужно только для того, кто меняет код. Обычному пользователю достаточно [установщика](#-установка).
+
+| Что | Где взять |
+| --- | --- |
+| Node.js 20+ | https://nodejs.org |
+| Rust (stable) | https://rustup.rs |
+| MSVC Build Tools | [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) → «Desktop development with C++» |
+
 ```bash
+git clone https://github.com/xidanSenior/poeHelper.git
+cd poeHelper
 npm install
 npm run app        # запуск с hot-reload
 npm test           # тесты (Vitest)
-npm run installer  # установщик NSIS
+npm run installer  # установщик → src-tauri\target\release\bundle\nsis\
 ```
+
+<details>
+<summary><b>Выпуск новой версии</b></summary>
+
+1. Подними версию в трёх файлах: `package.json`, `src-tauri/Cargo.toml`, `src-tauri/tauri.conf.json`
+2. Собери установщик: `npm run installer`
+3. Закоммить и запушь изменения, затем создай тег:
+   ```bash
+   git tag v1.0.0
+   git push origin v1.0.0
+   ```
+4. На GitHub: **Releases → Draft a new release** → выбери тег `v1.0.0` → заполни описание
+5. Перетащи `src-tauri\target\release\bundle\nsis\PoE Overlay_1.0.0_x64-setup.exe` в поле **Attach binaries**
+6. **Publish release**
+
+</details>
 
 <details>
 <summary><b>Структура проекта</b></summary>
