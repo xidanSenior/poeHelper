@@ -85,9 +85,9 @@ function renderFragment(f: Fragment, data: GameData): Segment {
     case "reward_vendor":
       return { text: f.cost ? `${f.item} (${f.cost})` : f.item, kind: "reward" };
     case "trial":
-      return { text: "🔺 Trial of Ascendancy", kind: "trial" };
+      return { text: "Trial of Ascendancy", kind: "trial" };
     case "ascend":
-      return { text: `🔺 Лабиринт ${LAB_NAMES[f.version] ?? f.version}`, kind: "trial" };
+      return { text: `Лабиринт ${LAB_NAMES[f.version] ?? f.version}`, kind: "trial" };
     case "crafting":
       return {
         text: f.crafting_recipes.length ? `рецепт крафта (${f.crafting_recipes.join(", ")})` : "рецепт крафта",
@@ -109,7 +109,7 @@ function renderGem(step: GemStep, data: GameData): RouteItem {
   const verb = step.rewardType === "quest" ? "Награда за квест:" : "Купи у торговца:";
   const count = step.count > 1 ? ` ×${step.count}` : "";
   const line: Segment[] = [
-    { text: `💎 ${verb} `, kind: "text" },
+    { text: `${verb} `, kind: "text" },
     { text: name + count, kind: "gem" },
   ];
   const note = step.requiredGem.note?.trim();

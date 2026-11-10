@@ -75,7 +75,7 @@ describe("buildZoneSteps", () => {
     expect(town[0].line).toContainEqual({ text: "Enemy at the Gate", kind: "quest" });
     expect(town[1].line).toContainEqual({ text: "Fireball", kind: "gem" });
     expect(town[2].sub[0]).toContainEqual({ text: "→", kind: "dir" });
-    expect(steps[4].items[0].line).toContainEqual({ text: "🔺 Trial of Ascendancy", kind: "trial" });
+    expect(steps[4].items[0].line).toContainEqual({ text: "Trial of Ascendancy", kind: "trial" });
   });
 
   it("follows logout and waypoint transitions", () => {

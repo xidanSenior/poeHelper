@@ -99,6 +99,7 @@ h1 {
   color: var(--muted);
 }
 
+/* Тип подсказки — иконка перед текстом + цвет. Иконки только здесь, в тексте шагов их нет. */
 .seg-kill { color: var(--kill); font-weight: 600; }
 .seg-area { color: var(--area); }
 .seg-quest { color: var(--quest); }
@@ -106,7 +107,22 @@ h1 {
 .seg-gem { color: var(--gem); font-weight: 600; }
 .seg-reward { color: var(--reward); }
 .seg-waypoint { color: var(--waypoint); }
-.seg-dir { color: var(--gold); font-weight: 700; }
+.seg-dir { color: var(--gold); font-weight: 700; font-size: 15px; }
+
+.seg-kill::before { content: "⚔️"; }
+.seg-area::before { content: "📍"; }
+.seg-quest::before { content: "📜"; }
+.seg-trial::before { content: "🔺"; }
+.seg-gem::before { content: "💎"; }
+.seg-reward::before { content: "🎁"; }
+.seg-waypoint::before { content: "🌀"; }
+
+[class^="seg-"]::before {
+  font-family: "Segoe UI Emoji", sans-serif;
+  font-size: 0.95em;
+  margin-right: 3px;
+  font-weight: 400;
+}
 
 .next {
   margin: 0;

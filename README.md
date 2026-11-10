@@ -10,6 +10,7 @@
 [![Platform](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)](#-установка)
 [![Path of Exile](https://img.shields.io/badge/Path%20of%20Exile-1-AF6025)](https://www.pathofexile.com)
 
+[Быстрый старт](#-быстрый-старт) •
 [Возможности](#-возможности) •
 [Установка](#-установка) •
 [Использование](#-использование) •
@@ -18,6 +19,42 @@
 [FAQ](#-faq)
 
 </div>
+
+---
+
+## ⚡ Быстрый старт
+
+**1. Установи инструменты** (один раз):
+
+- [Node.js](https://nodejs.org): скачай LTS и установи
+- [Rust](https://rustup.rs): скачай `rustup-init.exe`, запусти, во всех вопросах жми Enter
+- [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/): в установщике отметь **«Desktop development with C++»**
+
+**2. Собери установщик оверлея.** Открой терминал в папке проекта и выполни:
+
+```bash
+npm install
+npm run installer
+```
+
+Первая сборка займёт 5–10 минут. Готовый установщик появится здесь:
+
+```
+src-tauri\target\release\bundle\nsis\PoE Overlay_0.1.0_x64-setup.exe
+```
+
+**3. Установи и запусти.** Запусти этот `.exe`, права администратора не нужны. Оверлей появится в левом верхнем углу экрана, а его иконка в трее.
+
+**4. Настрой игру.** В PoE: `Options → Graphics → Display Mode` → **Windowed Fullscreen**.
+
+**5. Загрузи маршрут.**
+
+1. Открой [exile-leveling](https://heartofphos.github.io/exile-leveling/) → меню ☰ → **3rd-Party Export**
+2. В игре нажми <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>, оверлей перейдёт в режим настройки
+3. Кликни в поле **«Маршрут»** и нажми <kbd>Ctrl</kbd>+<kbd>V</kbd>
+4. Снова нажми <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd>, чтобы вернуться в игру
+
+Готово: заходи в зону, и оверлей сам покажет, что в ней делать. Подробности ниже в разделе [Использование](#-использование).
 
 ---
 
@@ -64,35 +101,35 @@
 
 ## 📦 Установка
 
-### Готовый установщик
+Готового установщика для скачивания пока нет, поэтому оверлей собирается из исходников.
 
-1. Скачай `PoE Overlay_x.y.z_x64-setup.exe` из [Releases](../../releases)
-2. Запусти. Права администратора не нужны, установка идёт только для текущего пользователя
-3. Переключи PoE в режим **Windowed Fullscreen** (`Options → Graphics → Display Mode`)
+### Что нужно
+
+| Что | Где взять | Зачем |
+| --- | --- | --- |
+| Node.js 20+ | https://nodejs.org | Сборка интерфейса |
+| Rust (stable) | https://rustup.rs | Сборка приложения |
+| MSVC Build Tools | [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) → «Desktop development with C++» | Компилятор для Rust под Windows |
+| WebView2 | Уже есть в Windows 10/11 | Отрисовка окна |
+
+### Сборка
+
+```bash
+npm install          # зависимости, один раз
+npm run installer    # сборка установщика
+```
+
+Результат: `src-tauri\target\release\bundle\nsis\PoE Overlay_<версия>_x64-setup.exe`.
+
+### Установка
+
+1. Запусти собранный `-setup.exe`. Права администратора не нужны, установка идёт только для текущего пользователя
+2. Переключи PoE в режим **Windowed Fullscreen** (`Options → Graphics → Display Mode`)
 
 > [!NOTE]
 > В эксклюзивном полноэкранном режиме (`Fullscreen`) Windows не показывает окна поверх игры.
 
-### Из исходников
-
-<details>
-<summary>Требования и сборка</summary>
-
-| Что нужно | Где взять |
-| --- | --- |
-| Node.js 20+ | https://nodejs.org |
-| Rust (stable) | https://rustup.rs |
-| MSVC Build Tools | Visual Studio Installer → «Desktop development with C++» |
-| WebView2 | Уже есть в Windows 10/11 |
-
-```bash
-git clone <url-репозитория>
-cd poe-overlay
-npm install
-npm run installer   # → src-tauri/target/release/bundle/nsis/*-setup.exe
-```
-
-</details>
+**Удаление:** «Параметры Windows → Приложения» → PoE Overlay → Удалить.
 
 ---
 
@@ -138,39 +175,18 @@ C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt
 
 **Трей:** показать/скрыть · режим настройки · вернуть окно на место · выход.
 
-### Цвета подсказок
+### Значки в подсказках
 
-| | Значение |
-| --- | --- |
-| 🔴 | Убить босса или монстра |
-| 🟢 | Сдать квест |
-| 🔵 | Зона |
-| 🟣 | Вейпоинт, портал, logout |
-| 🟠 | Trial of Ascendancy / лабиринт |
-| 🩵 | Гем |
-
----
-
-## ⚙️ Как это работает
-
-```mermaid
-flowchart LR
-    Log[("Client.txt")] -->|"новые строки<br/>каждые 250 мс"| Watcher["log_watcher.rs<br/><sub>Rust</sub>"]
-    Watcher -->|событие| Parser["logParser.ts<br/><sub>зона, areaId, уровень</sub>"]
-
-    Parser --> Guide["Гайд<br/><sub>шаг по areaId</sub>"]
-    Parser --> Lab["Лабиринт<br/><sub>комната по соседям</sub>"]
-
-    EL{{"exile-leveling<br/>3rd-Party Export"}} -.->|Ctrl+V| Guide
-    PL{{"poelab<br/>JSON раскладки"}} -.->|Ctrl+V| Lab
-
-    Guide --> UI["🖥️ Оверлей"]
-    Lab --> UI
-```
-
-- **Зона** определяется по строке `Generating level 2 area "1_1_2"`. ID зоны одинаковый на любом языке клиента, а одинаковые названия в актах 1 и 6 не путаются.
-- **Комната лабы** ищется среди соседей предыдущей комнаты: в лабе много комнат с одинаковыми названиями.
-- **Маршрут лабы** строится поиском в ширину по дверям до финального Izaro.
+| | Значение | Пример |
+| :---: | --- | --- |
+| ⚔️ | Убить | Find and kill ⚔️ **Hillock** |
+| 📜 | Сдать квест | Hand in 📜 Enemy at the Gate |
+| 📍 | Зона или место | ➞ 📍 The Coast |
+| 🌀 | Вейпоинт, портал, logout | 🌀 вейпоинт → The Crossroads |
+| 🔺 | Trial of Ascendancy, лабиринт | Complete 🔺 **Trial of Ascendancy** |
+| 💎 | Гем за квест или у торговца | Награда за квест: 💎 **Fireball** |
+| 🎁 | Награда, рецепт крафта | Get 🎁 рецепт крафта |
+| ↗ | Куда идти | Go ↗ |
 
 ---
 
@@ -268,12 +284,6 @@ poelab.com закрыт от программ защитой Cloudflare. Обх�
 </details>
 
 ---
-
-## 🙏 Благодарности
-
-- **[exile-leveling](https://github.com/HeartofPhos/exile-leveling)** от HeartofPhos: маршрут кампании и справочники зон, квестов и гемов (MIT)
-- **[poelab.com](https://www.poelab.com)**: ежедневные раскладки лабиринта
-- **[LabCompass](https://github.com/yznpku/LabCompass)**: идея навигации по лабе и описание формата раскладки
 
 <div align="center">
 <sub>Проект не связан с Grinding Gear Games. Path of Exile — товарный знак Grinding Gear Games.</sub>
