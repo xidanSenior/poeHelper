@@ -17,7 +17,6 @@
 [Установка](#-установка) •
 [Использование](#-использование) •
 [Управление](#%EF%B8%8F-управление) •
-[Разработка](#%EF%B8%8F-разработка) •
 [FAQ](#-faq)
 
 </div>
@@ -168,83 +167,6 @@ C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt
 | 💎 | Гем за квест или у торговца | Награда за квест: 💎 **Fireball** |
 | 🎁 | Награда, рецепт крафта | Get 🎁 рецепт крафта |
 | ↗ | Куда идти | Go ↗ |
-
----
-
-## 🛠️ Разработка
-
-Нужно только для того, кто меняет код. Обычному пользователю достаточно [установщика](#-установка).
-
-| Что | Где взять |
-| --- | --- |
-| Node.js 20+ | https://nodejs.org |
-| Rust (stable) | https://rustup.rs |
-| MSVC Build Tools | [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) → «Desktop development with C++» |
-
-```bash
-git clone https://github.com/xidanSenior/poeHelper.git
-cd poeHelper
-npm install
-npm run app        # запуск с hot-reload
-npm test           # тесты (Vitest)
-npm run installer  # установщик → src-tauri\target\release\bundle\nsis\
-```
-
-<details>
-<summary><b>Выпуск новой версии</b></summary>
-
-1. Подними версию в трёх файлах: `package.json`, `src-tauri/Cargo.toml`, `src-tauri/tauri.conf.json`
-2. Собери установщик: `npm run installer`
-3. Закоммить и запушь изменения, затем создай тег:
-   ```bash
-   git tag v1.0.0
-   git push origin v1.0.0
-   ```
-4. На GitHub: **Releases → Draft a new release** → выбери тег `v1.0.0` → заполни описание
-5. Перетащи `src-tauri\target\release\bundle\nsis\PoE Overlay_1.0.0_x64-setup.exe` в поле **Attach binaries**
-6. **Publish release**
-
-</details>
-
-<details>
-<summary><b>Структура проекта</b></summary>
-
-```
-├── src/                      # Фронтенд (TypeScript, без фреймворков)
-│   ├── main.ts               # UI оверлея
-│   ├── logParser.ts          # Разбор строк Client.txt
-│   ├── guide/
-│   │   ├── exportFormat.ts   # Формат 3rd-Party Export
-│   │   ├── zoneSteps.ts      # Шаги маршрута → шаги «по зонам»
-│   │   ├── engine.ts         # На каком шаге игрок
-│   │   └── data/             # Справочники зон, квестов, гемов
-│   └── lab/
-│       ├── labFormat.ts      # Формат раскладки poelab
-│       ├── labGraph.ts       # Граф комнат, путь до Izaro
-│       ├── labTracker.ts     # В какой комнате игрок
-│       └── labView.ts        # SVG-схема
-├── src-tauri/                # Бэкенд (Rust)
-│   ├── src/lib.rs            # Окно, хоткеи, трей
-│   └── src/log_watcher.rs    # Слежение за логом
-└── scripts/
-    └── update-game-data.mjs  # Обновление справочников
-```
-
-</details>
-
-<details>
-<summary><b>Обновить справочники зон, квестов и гемов</b></summary>
-
-После нового патча PoE:
-
-```bash
-node scripts/update-game-data.mjs            # коммит exile-leveling, зашитый в скрипт
-node scripts/update-game-data.mjs <commit>   # конкретный коммит
-```
-
-Скрипт скачивает только JSON-данные. Код exile-leveling не выполняется.
-
-</details>
 
 ---
 
